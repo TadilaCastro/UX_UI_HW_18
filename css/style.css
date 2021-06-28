@@ -1,11 +1,13 @@
 body{
+    width: 100%;
     margin: 0;
     padding: 0;
+    
 }
 
 nav{
     background-color: #1F4C63;
-    height: 120px;
+    height: 55.5px;
     margin: 0;
     padding: 0;
     position: sticky;
@@ -34,23 +36,46 @@ float: right;
 background-color: lightgray;
 color:#1F4C63 ;
 }
+
 .container {
     display: flex;
-    }
-
-.leftBar{ 
-    background-color: white;
-    padding: 25px;
-    }
-
-.introImage img{
-max-width: 900px;
-box-shadow: 3px 3px rgb(206, 203, 203);
 }
 
-.Logo img{
-    max-width: 280px;
-    }
+.title{
+    text-align: center;
+}
+
+.logoDark img{
+    max-width: 120px;
+    display: flex;
+    padding: 5px;
+}
+
+.unaMesaHomepage1 img{
+    max-width: 300px;
+    display: flex;
+       
+}
+
+.unaMesaHomepage2 img{
+    max-width: 300px;
+    display: flex;
+       
+}
+
+.partners img{
+    max-width: 300px;
+    display: flex;
+}
+
+.individualContributors img{
+    max-width: 300px;
+    display: flex;
+}
+
+.invisible{
+color: white;
+}
 
 .mainContent{
     padding: 20px;
@@ -60,6 +85,7 @@ box-shadow: 3px 3px rgb(206, 203, 203);
 .cardContainer {
     background-color: lightgray;
     padding: 20px;
+    font-family: 'DM Sans', sans-serif;
 }
 .card {
     height: 250px;
@@ -71,18 +97,6 @@ box-shadow: 3px 3px rgb(206, 203, 203);
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
    }
-
-.unaMesaImage img{
-    max-width: 375px;
-    float: left;
-    border-radius: 10px 0px 0px 10px;
-}
-
-.unaMesaInfo{
-padding: 10px;
-display: flex;
-flex-direction: column;
-}
 
 .button {
     background-color: #474747;
@@ -124,3 +138,134 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
 }
+
+.flexbox-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+}
+
+.flexbox-container2{
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+}
+
+.flexbox-item{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+}
+
+.grid{
+margin: 2rem auto;
+display: grid;
+grid-template-columns: 33% 33% 33%;
+}
+
+.journeyMap img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+      }
+
+
+.competitor1 img{
+    max-width: 500px;
+}
+
+.competitor2 img{
+    max-width: 500px;
+}
+
+.competitor3 img{
+    max-width: 500px;
+}
+
+.sketch1 img{
+    max-width: 500px;    
+}
+
+.sketch2 img{
+    max-width: 500px;    
+}
+
+@media only screen and (max-width: 600px){
+.title{
+    text-align: left;
+}
+
+body{
+    width: 600px;
+}
+
+nav{
+    display: block;
+    margin: 0 auto;
+}
+.logoDark img{
+    display: none;
+ }
+ 
+.navItem{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 auto;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+ }
+
+ nav div {
+    display: center ;
+    margin: 0;
+    width: 600px;
+}
+
+ .mainContent{
+     padding: 20px;
+     max-width: 350px;
+     font-size: 20px;
+ }
+
+
+
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flexbox-container2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+.grafico1{
+    padding: 20px;
+    display: block;
+}
+
+.grafico2{
+    padding: 20px;
+    display: block;
+}
+
+.grafico3{
+    padding: 20px;
+    display: block;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: auto    ;
+  }
+
+  .journeyMap img{
+    max-width: 400px;
+  }

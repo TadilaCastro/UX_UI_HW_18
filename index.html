@@ -13,44 +13,270 @@
 </head>
 
 <body>
+    
     <nav>
         <div class="navItem">ABOUT</div>
         <div class="navItem">SKILLS</div>
         <div class="navItem">WORK</div>
         <div class="navItem">CONTACT</div>
-    </nav>
-    <section class="container">
-        <div class="leftBar">
-            <div class="introImage">
-                <img src="images/Intro Image.PNG">
-            </div>
+        <div class="logoDark">
+            <img src="images/LogoDark.png">
         </div>
+    </nav>
+    
+
+    <!--
+    <header>
+        <div class="logoDark">
+            <img src="images/LogoDark.png">
+        </div>
+        <nav>
+            <ul>
+                <li class="navItem">ABOUT</li>
+                <li class="navItem">SKILLS</li>
+                <li class="navItem">WORK</li>
+                <li class="navItem">CONTACT</li>
+            </ul>
+        </nav>
+    </header>
+    -->
+
+    <section class="container">
         <div class="mainContent">
-            <div class="Logo">
-                <img src="images/Logo.PNG">
-            </div>
-            <div>
-                <p>Hi, I'm Tadila Castro, a Brazilian UX/UI Designer trying to create better experiences for people.
-                </p>
-                <p>I have been working in the IT field for 6 years as a Business Analyst supporting automation
-                    procedures. I also have a passion for learning about cultures and languages and now look for ways to
-                    combine these skills and interests to help people engage with new technologies. </p>
+            <div class="title">
+                <h1>UNAMESA | Nonprofit Organization Website Redesign</h1>
+                <p>TIMELINE: 3 Weeks • MATERIALS: Sticky Notes, Pen, Paper, Figma, inVision, AdobeXD.</p>
+                <p>UX TECHNIQUES: User Interviews, Competitive Analysis, Affinity Diagram, Site Map, Sketching,
+                    Wireframing, and Usability Testing.</p>
             </div>
 
-        </div>
+            <div>
+                <h2>Background</h2>
+                <p>We were hired to redesign the existing UnaMesa website and redevelop the look, feel, and purpose of
+                    the site.</p>
+                <p>UnaMesa is a non-profit organization that strengthens communities by increasing the number and depth
+                    of meaningful connections. Located in Palo Alto, CA, they incubate projects that create and promote
+                    new ways of connecting within and across communities.
+                    They overarching goal is to work with networks of social enterprises to develop shared technologies
+                    and frameworks for valuing interactions and relationships. </p>
+            </div>
+
+            <div>
+                <h2>The Problem</h2>
+                <p>During preliminary usability tests, we discovered that Una Mesa’s website can be confusing for users
+                    who are not familiar with the organization.
+                    The website lacks clarity for new users due to lack of information,
+                    credibility, and information architecture. This way users struggle to connect with the
+                    organization’s mission, values, and
+                    impact, resulting in decreased engagement.</p>
+            </div>
+
+            <div>
+                <h2>The Solution</h2>
+                <p> We re-designed the current Unamesa website to provide individuals with more meaningful information
+                    about the organization's mission and vision,
+                    and shared ways to get involved and donate to one of the projects.</p>
+                <p> We also combined UX writing best practices with an enhanced User Interface to increase the overall
+                    website usability.</p>
+            </div>
+
+            <div>
+                <h2>Research</h2>
+                <p>To gain a better understanding of how we could more effectively address this problem, we conducted 5
+                    virtual 1:1 user interviews with potential users searching for a community based program conneting
+                    kids and families.
+                    The result was almost unanimously negative:</p>
+
+                <!--  My UX Skills section coded using CSS flex -->
+                <div class="flexbox-container">
+                    <div class="flexbox-item grafico1">
+                        <img src="images/Grafico 1.png" width="200px" height="250px">
+                    </div>
+                    <div class="flexbox-item grafico2">
+                        <img src="images/Grafico 2.png" width="200px" height="250px">
+                    </div>
+                    <div class="flexbox-item grafico3">
+                        <img src="images/Grafico 3.png" width="200px" height="250px">
+                    </div>
+                </div>
+
+                <!-- My Work Section Constructed using CSS Grid -->
+                <div class="grid">
+                    <div>
+                        <p> 100% of the users interviewed agreed UnaMesa's website is poorly designed </p>
+                    </div>
+                    <div>
+                        <p> 90% agreed this poor design affects the organizations credibility </p>
+                    </div>
+                    <div>
+                        <p> 90% agreed the Donate button was fairly difficult to find </p>
+                    </div>
+                </div>
+
+                <p>They also shared some important insights such as:</p>
+
+                <!-- My Work Section Constructed using CSS Grid -->
+                <div class="grid">
+                    <div>
+                        <p> “This organization is not open to people who don't know about their purpose”</p>
+                    </div>
+                    <div>
+                        <p>“When I see a site like this, it kind of impacts their credibility”</p>
+                    </div>
+                    <div>
+                        <p>“The site is missing any emotional connection”</p>
+                    </div>
+                </div>
+
+                <p>Once we got these feedbacks we arranged our findings into an Empathy map, and that helped us
+                    understand the confusion around the unclear message of Una Mesa’s existing site.
+                    As a result of this activity, we were able to discover some major trends that we needed to address
+                    in the next phase of our design process.</p>
+
+                <div class="flexbox-container">
+                    <img src="images/AffinityDiagram.png" width="500px" height="400px">
+                    <img src="images/Empathy Map.png" width="600px" height="400px">
+                </div>
+            </div>
+
+            <div>
+                <h3>User Journey Map</h3>
+                <p>In order to visualize the future website experience from the user’s perspective, we created a Journey
+                    Map.
+                    In an ideal setting, Sharon wouldmsearch for a local non-profit to help her community, come across
+                    UnaMesa's website, be impressed with what she saw, click around the site to learn what they do,
+                    understand the impact they have in her community, and find an easily actionable way to get involved.
+                </p>
+                <div class="journeyMap">
+                    <img src="images/JourneyMap.png">
+                </div>
+            </div>
+
+            <div>
+                <h3>Competitor Analysis</h3>
+                <p> We analyzed a few other non-profit sites and concluded some were similar in purpose to Una Mesa,
+                    others were examples of sites Sharon could feasibly come across as a charitably-minded person.</p>
+                <p> We noticed a trend in the lively color palettes and personable branding choices made by most of our
+                    competitors.
+                    Each organization talked about their projects’ impact on beneficiaries’ lives, which made them
+                    appear trustworthy and credible.
+                    Throughout, we noted the use of photographs, particularly of faces, to drive each organization’s
+                    story.</p>
+
+                <div class="flexbox-container">
+                    <div class="flexbox-item competitor1">
+                        <img src="images/Competitor1.png">
+                    </div>
+                    <div class="flexbox-item competitor2">
+                        <img src="images/Competitor2.png">
+                    </div>
+                    <div class="flexbox-item competitor3">
+                        <img src="images/Competitor3.png">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="invisible">
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+            </div>
+
+            <div>
+                <h2>Sketches</h2>
+                <p>Once we organized all our research and defined our design goals, we began to explore potential visual
+                    solutions for the website.
+                    Each team member sketched pages and we came together to decide what to take forward in the
+                    low-to-mid fidelity stage.
+                </p>
+
+                <div class="flexbox-container2">
+                    <div class="flexbox-item sketch1">
+                        <img src="images/sketch1.png">
+                    </div>
+                    <div class="flexbox-item sketch2">
+                        <img src="images/sketch2.png">
+                    </div>
+                </div>
+
+                <div class="invisible">
+                    <p>.</p>
+                    <p>.</p>
+                    <p>.</p>
+                    <p>.</p>
+                    <p>.</p>
+                    <p>.</p>
+                </div>
+
+                <div>
+                    <h2>Design | Hi-fi Prototype</h2>
+                    <h3>Leading users to ways they can support the cause.</h3>
+                    <p>In order to immediately catch the attention of our users, we designed a donate button as the
+                        main call to action, further highlighted by the orange color. By making the donate button easily
+                        visible, it would make it easier and more encouraging for users to contribute — bridging both
+                        the organization and user needs.</p>
+
+                    <h3>Establishing trust and confidence.</h3>
+                    <p>We wanted to ensure that the user would feel confident and have trust in UnaMesa so we made sure
+                        to incorporate this aspect into several different features throughout the website including:
+                    <p>• Prominently displayed mission statement on the homepage;</p>
+                    <p>• “Who we are” page to give users a deeper understanding of the organization;</p>
+                    <p>• “Impact” showcasing facts and statistics about the impact UnaMesa has made in the community;
+                    </p>
+                    <p>• Established list of business partners involved in the UnaMesa's mission;</p>
+                    <p>• “Testimonials” section featuring personal testimonials from people impacted by or involved with
+                        UnaMesa</p>
+
+                    <!--  My UX Skills section coded using CSS flex -->
+                    <div class="flexbox-container">
+                        <div class="flexbox-item unaMesaHomepage1">
+                            <img src="images/Homepage 1.png">
+                        </div>
+                        <div class="flexbox-item unaMesaHomepage2">
+                            <img src="images/Homepage 2.png">
+                        </div>
+                        <div class="flexbox-item partners">
+                            <img src="images/Partners.png">
+                        </div>
+                        <div class="flexbox-item individualContributors">
+                            <img src="images/IndividualContributors.png">
+                        </div>
+                    </div>
+
+                    <div class="invisible">
+                        <p>.</p>
+                        <p>.</p>
+                        <p>.</p>
+                        <p>.</p>
+                        <p>.</p>
+                        <p>.</p>
+                        <p>.</p>
+                        <p>.</p>
+                        <p>.</p>
+                        <p>.</p>
+                        <p>.</p>
+                        <p>.</p>
+                    </div>
+                </div>
+            </div>
     </section>
     <div class="cardContainer">
-        <h3>Projects</h3>
-        <div class="card">
-            <div class="unaMesaImage">
-                <img src="images/Unamesa image.jpg">
-            </div>
-            <div class="unaMesaInfo">
-                <h4>UNAMESA | Nonprofit Website</h4>
-                <p>Redesign of the existing UnaMesa website and redevelop of the look, feel, and purpose of the page.
-                </p>
-            </div>
-            <a class="button" href="a">View Case Study</a>
+        <div>
+            <h2>More Projects</h2>
         </div>
         <div class="card">
             <div class="giftery">
