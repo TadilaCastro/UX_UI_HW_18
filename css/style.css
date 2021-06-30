@@ -1,271 +1,274 @@
+*{
+    text-decoration: none;    
+}
+
 body{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    color: #474747;
+}
+
+header{
+    background-color:#1F4C63;
     width: 100%;
-    margin: 0;
-    padding: 0;
-    
+    height: 150px;
 }
 
-nav{
-    background-color: #1F4C63;
-    height: 55.5px;
-    margin: 0;
-    padding: 0;
-    position: sticky;
-    top: 0;
-    left: 0;
+header .logoDark{
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
-nav div {
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+
+}
+
+header nav ul li{
     display: inline-block;
-    margin: 0;
-}
-.navItem {
-width: 70px;
-color: #E5E5E5;
-font-family: 'DM Sans', sans-serif;
-font-size: 18px;
-background-color: #1F4C63;
-border: 1px solid #1F4C63;
-padding: 15px 25px;
-text-align: center;
-transition: background-color 0.5s ease;
-float: right;
+    float: right;  
+    list-style: none;
+    padding: 0 16px;  
 }
 
-.navItem:hover {
-background-color: lightgray;
-color:#1F4C63 ;
-}
-
-.container {
-    display: flex;
+header nav ul li a {
+    font-family: 'DM Sans', sans-serif;  
+    font-size: 16px;
+    color: #E5E5E5;
 }
 
 .title{
+    font-size: 12px;
     text-align: center;
 }
 
-.logoDark img{
-    max-width: 120px;
-    display: flex;
-    padding: 5px;
+main{
+    padding: 16px;
 }
 
-.unaMesaHomepage1 img{
-    max-width: 300px;
-    display: flex;
-       
-}
-
-.unaMesaHomepage2 img{
-    max-width: 300px;
-    display: flex;
-       
-}
-
-.partners img{
-    max-width: 300px;
-    display: flex;
-}
-
-.individualContributors img{
-    max-width: 300px;
-    display: flex;
-}
-
-.invisible{
-color: white;
-}
-
-.mainContent{
-    padding: 20px;
-    font-family: 'DM Sans', sans-serif;
-}
-
-.cardContainer {
-    background-color: lightgray;
-    padding: 20px;
-    font-family: 'DM Sans', sans-serif;
-}
-.card {
-    height: 250px;
-    width: 1236px;
-    background-color:#FFFFFF;
-    margin: 20px;
-    text-align: center;
-    border-radius: 10px;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
-   }
-
-.button {
-    background-color: #474747;
-    color: #FFFFFF;
-    border-radius: 40px;
-    border: 1px solid #474747;
-    padding: 15px 25px;
-    text-decoration: none;
-    transition: background-color 0.5s case;
-}
-
-.button:hover{
-    background-color: #1F4C63;
-    border: #1F4C63;
-}
-
-.giftery img{
-    width: 375px;
-    height: 250px;
-    float: left;
-    border-radius: 10px 0px 0px 10px;
-}
-
-.gifteryInfo{
-padding: 10px;
-display: flex;
-flex-direction: column;
-}
-
-.easy img{
-    width: 375px;
-    height: 250px;
-    float: left;
-    border-radius: 10px 0px 0px 10px;
-}
-
-.easyInfo{
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.flexbox-container{
-    display: flex;
-    justify-content: space-between;
-    width: 1300px;
-}
-
-.flexbox-container2{
+.flexbox-container-charts{
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    width: 1300px;
+    flex-direction: column;
+    padding: 0 0 0 130px;
 }
 
-.flexbox-item{
-    width: 200px;
-    height: 200px;
-    margin: 10px;
+.flexbox-container-images{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0 0 0 70px;
+}
 
+.chart1 img{
+    max-width: 200px;
+    padding: 5px 0;
+}
+
+.chart2 img{
+    max-width: 200px;
+    padding: 5px 0;
+}
+
+.chart3 img{
+    max-width: 200px;
+    padding: 5px 0;
+}
+
+.image1 img{
+    max-width: 80%;
+    height: auto;
+    padding: 10px 0;
+}
+
+.image2 img{
+    max-width: 80%;
+    height: auto;
+    padding: 10px 0;
+}
+
+.image3 img{
+    max-width: 80%;
+    height: auto;
+    padding: 10px 0;
 }
 
 .grid{
-margin: 2rem auto;
-display: grid;
-grid-template-columns: 33% 33% 33%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-rows: auto;
+    }
+
+.grid p{
+    border: 1px solid gray;
+    height: 50px;
+    text-align: center;
 }
 
 .journeyMap img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1000px;
-      }
-
-
-.competitor1 img{
-    max-width: 500px;
+    width: 100%;
+    height: auto;
 }
 
-.competitor2 img{
-    max-width: 500px;
+.moreProjects{
+    width: calc(100%-80px);
+    background-color: #EAE8EB;
+    padding: 16px;
 }
 
-.competitor3 img{
-    max-width: 500px;
+.theGiftery{
+    max-width: 100%;
+    height: auto;
+    background-image: url("https://www.treehugger.com/thmb/sx8ukVMaYUiJS2RtBxb1zhwog84=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2018__11__gift_giving-12a7f3700d7549739373ec2769edcbab.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    border-radius: 10px;
 }
 
-.sketch1 img{
-    max-width: 500px;    
+.theGiftery h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;  
+    text-shadow: 2px 2px 8px #111;
+    color: white;
+    padding: 60px;
 }
 
-.sketch2 img{
-    max-width: 500px;    
-}
-
-@media only screen and (max-width: 600px){
-.title{
-    text-align: left;
-}
-
-body{
-    width: 600px;
-}
-
-nav{
-    display: block;
-    margin: 0 auto;
-}
-.logoDark img{
+.theGiftery p {
     display: none;
- }
- 
-.navItem{
-    display: inline-block;
+}
+
+.easy{
+    max-width: 100%;
+    height: auto;
+    background-image: url("https://www.smartaboutmoney.org/portals/0/Images/Topics/Housing-and-Transportation/Transportation/Hidden-Costs-of-Airline-Travel.jpg?ver=2017-07-13-135449-733");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.easy h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;   
+    text-shadow: 2px 2px 8px #111;
+    color: white;
+    padding: 60px;
+}
+
+.easy p {
+    display: none;
+}
+
+
+/*FOOTER*/
+
+footer{
+    width: calc(100%-80px);
+    padding: 40px 40px;
+    height: 80px;
+    background-color: #C4C4C4;
+    font-family: 'PT Sans', sans-serif;
     font-size: 20px;
-    margin: 0 auto;
-    float: left;
-    list-style: none;
-    padding: 0 16px;
- }
-
- nav div {
-    display: center ;
-    margin: 0;
-    width: 600px;
+    text-align: center;
+    color: #474747;
 }
 
- .mainContent{
-     padding: 20px;
-     max-width: 350px;
-     font-size: 20px;
- }
-
-
-
-.flexbox-container{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    padding: 10px;
+.letsConnect {
+    font-weight: 700;
 }
 
-.flexbox-container2{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    padding: 10px;
+@media only screen and (min-width: 1000px) {
+
+    header{
+    height: 117px;
 }
 
-.grafico1{
-    padding: 20px;
-    display: block;
+    header .logoDark{
+        max-width: 150px;
+        display: left;
+        margin: 0;
+        padding: 0;
+    }    
+
+    header nav ul {
+        width: 100%;
+        float: right;
+    }    
+
+    header nav ul li{
+    width: 70px;
+    font-size: 18px;
+    background-color: #1F4C63;
+    padding: 15px 25px;
+    text-align: center;
+    transition: background-color 0.5s ease;
+    float: right;
+    }
+
+    header nav ul li:hover {
+        background-color: lightgray;
+    }
+    
+    header nav ul li a:hover {
+        color:#1F4C63 ;
+        font-weight: 700;
+    }
+
+    .flexbox-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .flexbox-container-charts{
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .flexbox-container-images{
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .grid{
+        grid-template-columns: 33% 33% 33%;
+    }
+    .theGiftery{
+        width: 600px;
+        height: auto;
+    }
+
+    .theGiftery p {
+        display: flex;
+        font-size: 16px;
+        text-align: left;    
+        color: white;
+        line-height: 25px;
+        padding: 0 10px;
+    }
+
+    .easy{
+        width: 600px;
+        height: auto;
+    }
+
+    .easy p {
+        display: flex;
+        font-size: 16px;
+        text-align: left;    
+        color: white;
+        line-height: 25px;
+        padding: 0 10px;
+    }
 }
-
-.grafico2{
-    padding: 20px;
-    display: block;
-}
-
-.grafico3{
-    padding: 20px;
-    display: block;
-}
-
-.grid{
-    display: grid;
-    grid-template-rows: auto    ;
-  }
-
-  .journeyMap img{
-    max-width: 400px;
-  }
